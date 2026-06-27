@@ -1,0 +1,18 @@
+# This project has NO third-party dependencies.
+#
+# It runs on the Python 3.12 standard library only:
+#   - sqlite3   (storage)
+#   - decimal   (exact money math)
+#   - tkinter   (desktop GUI)
+#   - csv, argparse, dataclasses, enum, datetime (everything else)
+#
+# There is therefore nothing to `pip install`.
+#
+# Note: tkinter is part of the standard library, but on Debian/Ubuntu the Tk
+# bindings are shipped in a separate system package. Install it with apt, not
+# pip:
+#
+#   sudo apt install python3-tk
+#
+# On the official python.org installers for Windows and macOS, Tk is already
+# bundled, so no extra step is needed.
